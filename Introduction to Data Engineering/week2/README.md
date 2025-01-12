@@ -1,5 +1,5 @@
 ## Notes for week 2
-1. If we were to arrange various aspects of data storage as a hierarchy, what should be the correct order of this hierarchy from the bottom to the top?
+1\. If we were to arrange various aspects of data storage as a hierarchy, what should be the correct order of this hierarchy from the bottom to the top?
 + Bottom layer: Raw storage ingredients
 + Middle layer: Storage systems
 + Top layer: Storage abstractions
