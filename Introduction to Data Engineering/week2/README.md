@@ -14,3 +14,10 @@ Explanation: The bottom layer of the hierarchy consists of the raw storage ingre
 4\. RTO is the maximum acceptable time for a service outage, while RPO defines the acceptable state after recovery.
 
 5\. Zero trust requires authentication for every action, while hardened perimeter security relies on a physical barrier.
+
+6\. Batch Processing:
+- Processes data in fixed time periods (e.g., daily batches)
+- Traditional approach to data processing
+- Optimal for non-real-time analysis needs
+
+7\. 
