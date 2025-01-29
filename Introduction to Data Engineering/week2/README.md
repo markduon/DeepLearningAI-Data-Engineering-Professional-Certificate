@@ -20,4 +20,4 @@ Explanation: The bottom layer of the hierarchy consists of the raw storage ingre
 - Traditional approach to data processing
 - Optimal for non-real-time analysis needs
 
-7\. 
+7\. Data Marts: These are subsets of data warehouses focused on specific business areas, making data more accessible for analytics and reporting.
