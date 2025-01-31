@@ -21,3 +21,9 @@ Explanation: The bottom layer of the hierarchy consists of the raw storage ingre
 - Optimal for non-real-time analysis needs
 
 7\. Data Marts: These are subsets of data warehouses focused on specific business areas, making data more accessible for analytics and reporting.
+
+8\. Streaming processing: handles data continuously in near real-time.
+
+9\. Monolithic v.s. modular:
+- Monolithic architecture is like a big, single building where everything is connected tightly together. Imagine a large library where all the books, computers, and study areas are in one room. This makes it easy to find everything in one place, but if you want to change something, like adding a new section, it can be very complicated and might require a lot of work. For example, if a part of the library needs repairs, the whole library might have to close down, which can be frustrating for everyone.
+- On the other hand, modular architecture is like a collection of small, separate buildings that are connected by pathways. Each building serves a different purpose, like a reading room, a computer lab, or a café. If you want to make changes, like renovating the café, you can do that without affecting the other buildings. This flexibility allows for easier updates and improvements over time, making it a more efficient way to manage resources.
