@@ -38,4 +38,12 @@
 
 ### Consistency
 - Consistency guarantees that any changes made to the database during a transaction must adhere to predefined rules or constraints set by the database schema. This means that the database will only transition from one valid state to another.
-- Example: 
+- Example: Imagine an inventory system where the stock level for a particular item cannot go below zero. If the current stock level is one and a customer attempts to order two items, the transaction will fail.
+
+### Isolation
+- Isolation guarantees that when multiple transactions are executed concurrently, each transaction operates as if it is the only transaction in the system. This means that the intermediate state of a transaction is not visible to other transactions until it is completed.
+- Example: Consider a scenario where two customers place orders for the same item at the same time. If the inventory shows that there are 10 items available: Customer A orders 5 items. Customer B also orders 5 items simultaneously. The isolation principle ensures that these transactions are processed independently. If Customer A's transaction is processed first, the inventory will be updated to reflect 5 items remaining. When Customer B's transaction is processed next, it will see that only 5 items are left and can proceed successfully. If Customer B had tried to order 6 items, the transaction would fail, maintaining the integrity of the inventory.
+
+### Durability
+- Durability guarantees that completed transactions will survive any subsequent failures, such as power outages, crashes, or other unexpected events. Once a transaction is confirmed, the changes it made to the database are stored in a way that they cannot be lost.
+- Example: Imagine a banking system where a customer transfers money from one account to another. Once the transaction is completed and confirmed: The amount is deducted from the sender's account. The amount is added to the recipient's account. If a power failure occurs immediately after the transaction is confirmed, the database will still retain the changes made by the transaction. When the system is restored, the accounts will reflect the correct balances, ensuring that the transaction's effects are preserved.
